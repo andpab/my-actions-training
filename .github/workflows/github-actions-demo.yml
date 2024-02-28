@@ -16,4 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step
+      - shell: bash
       - run: echo 'Test'
